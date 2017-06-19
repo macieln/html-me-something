@@ -1,4 +1,199 @@
+* {
+    font-family: Helvetica, sans-serif
+}
+
 body {
     margin: 0;
     padding: 0;
+}
+
+/**********************************************/
+/*                   HEADER                   */
+/**********************************************/
+
+header {
+    width: 100vw;
+    height: 15vh;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #29526D;
+}
+
+header a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+header h1 {
+    font-family: 'Fugaz One', cursive;
+    font-weight: bold;
+    color: #111;
+}
+
+/**********************************************/
+/*                   MENU                     */
+/**********************************************/
+
+#menu ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#menu ul {
+    font-weight: bold;
+}
+
+#menu ul li {
+    color: #277554;
+}
+
+#menu ul img {
+    width: 32px;
+    height: 32px;
+}
+
+/**********************************************/
+/*                   TEXT                     */
+/**********************************************/
+
+p {
+    width: 85%;
+    margin: 5% auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+i {
+    text-align: center;
+}
+
+/**********************************************/
+/*                   ARTICLE                  */
+/**********************************************/
+
+article {
+    width: 85vw;
+    height: 100vh;
+    margin: 5vh auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    background-color: #246D5F;
+    color: #DDD;
+}
+
+#cigar-img {
+    width: 25vw;
+    height: 25vw;
+    margin: 3% auto;
+    margin-bottom: 1%;
+    border-radius: 50%;
+}
+
+article i {
+    margin: 0 auto;
+    text-align: center;
+}
+
+article p {
+    width: 75%;
+    margin: 1% auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+/**********************************************/
+/*                   PROJECTS                 */
+/**********************************************/
+
+.project-item h3 {
+    width: 100%;
+    height: 2vh; 
+    margin: 0 auto;
+    padding: 2vh 0;
+    text-align: center;
+    background-color: #246D5F;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    color: #FFF;
+}
+.project-item {
+    width: 45vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-bottom: 5%;
+    display: flex;
+    box-sizing: border-box;
+    border-radius: 5%;
+    flex-direction: column;
+    align-self: center;
+    background-color: #148E76; 
+}
+
+.project-item img {
+    width: 10vh;
+    height: 10vh;
+    margin: 1% auto;
+
+}
+
+.project-item p {
+    width: 85%;
+    margin: 2% auto;
+    color: #FFF;
+    font-size: 1.05rem;
+}
+
+.project-item i {
+    width: 85%;
+    margin: 2% auto;
+    color: #FFF;
+    font-size: .75rem;
+}
+
+/**********************************************/
+/*                   SKILLS                   */
+/**********************************************/
+
+.skill-item {
+    width: 45vw;
+    height: 15vh;
+    margin: 2.5% auto;
+    margin-top: .25%;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    text-align: center;
+    color: #FFF;
+    background-color: #148E76; 
+}
+
+.skill-item h3 {
+    margin: 5%;
+    margin-bottom: 1%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+/**********************************************/
+/*                   FOOTER                   */
+/**********************************************/
+
+footer {
+    width: 100vw;
+    height: 2.5vh;
+    display: flex;
+}
+
+footer p {
+    margin: auto;
+    font-weight: bold;
 }
